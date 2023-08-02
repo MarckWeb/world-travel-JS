@@ -1,0 +1,33 @@
+@use 'variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background: variables.$color-fondo;
+	font-family: variables.$primary-font-family;
+	font-size: 16px;
+	color: #fff;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1050px;
+	margin: auto;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+// La pseudo-clase :focus CSS representa un elemento (como una entrada de formulario) que ha recibido el foco. Generalmente se activa cuando el usuario hace clic, toca un elemento o lo selecciona con la tecla "Tab" del teclado
+a:focus,
+button:focus {
+	outline: none;
+}
+

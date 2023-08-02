@@ -1,0 +1,17 @@
+{
+  "type":"module",
+  "name": "pokemon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "rollup": "^3.24.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
